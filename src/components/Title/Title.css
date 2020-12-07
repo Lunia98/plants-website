@@ -1,0 +1,26 @@
+.Container__Title {
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.go_green {
+  color: #829f82;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.Flex__Title {
+  display: flex;
+  justify-content: center;
+}
+.Title {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  width: 50%;
+}
+.Describe {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  width: 50%;
+  color: #5a5a5a;
+}
