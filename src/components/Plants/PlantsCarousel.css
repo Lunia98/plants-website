@@ -1,0 +1,7 @@
+.Transition__Plants {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100vw;
+  height: 270px;
+}

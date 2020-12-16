@@ -2,8 +2,15 @@
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 70%;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #5a5a5a;
+  cursor: default;
+}
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
 }

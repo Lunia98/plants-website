@@ -1,7 +1,7 @@
 import Nav from "./components/Nav/Nav.jsx";
 import "./App.css";
 import Title from "./components/Title/Title.jsx";
-import PlantCarousel from "./components/Plants/PlantCarousel.jsx";
+import PlantsCarousel from "./components/Plants/PlantsCarousel.jsx";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Title />
       </div>
       <div className="Flex__Plant">
-        <PlantCarousel />
+        <PlantsCarousel />
       </div>
     </div>
   );
