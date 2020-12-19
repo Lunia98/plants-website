@@ -1,0 +1,9 @@
+.button__nav {
+  background-color: transparent;
+  border: none;
+
+  color: white;
+}
+.button__nav:focus {
+  outline: none;
+}

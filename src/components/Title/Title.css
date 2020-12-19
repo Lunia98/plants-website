@@ -25,3 +25,8 @@
   width: 50%;
   color: #5a5a5a;
 }
+@media (max-width: 750px) {
+  .Container__Title {
+    display: none;
+  }
+}

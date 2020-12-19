@@ -9,8 +9,36 @@
   color: #5a5a5a;
   cursor: default;
 }
-@media (max-width: 600px) {
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0, 5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 750px) {
   .nav {
-    display: none;
+    animation-duration: 1s;
+    animation-name: slidein;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    color: #787d7f;
+    font-weight: 600;
+    padding-bottom: 10px;
+    transition: 1s;
+    margin-top: 0;
+    margin-left: 4%;
+    text-align: center;
+  }
+  li {
+    padding: 3px;
   }
 }
