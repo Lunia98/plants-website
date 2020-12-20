@@ -18,6 +18,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 45px;
   width: 50%;
+  color: #252e30;
 }
 .Describe {
   font-family: "Poppins", sans-serif;
@@ -27,6 +28,27 @@
 }
 @media (max-width: 750px) {
   .Container__Title {
-    display: none;
+    width: 40%;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
   }
+  .Flex__Title {
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .Title {
+    font-size: 26px;
+    width: 100%;
+  }
+  /*   .Describe {
+    display: none;
+  } */
+}
+.go_green {
+  transform: rotate(270deg);
+  width: fit-content;
+  position: absolute;
+  top: 290px;
+  left: -135px;
 }

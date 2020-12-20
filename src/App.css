@@ -12,6 +12,14 @@
   display: flex;
   justify-content: center;
 }
+.Container__Flex__Plant {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d8e2e4;
+}
 @media (max-width: 750px) {
   .App_Nav {
     width: 100%;

@@ -5,8 +5,3 @@
   width: 100vw;
   height: 270px;
 }
-@media (max-width: 750px) {
-  .Transition__Plants {
-    display: none;
-  }
-}

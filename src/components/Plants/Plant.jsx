@@ -2,9 +2,21 @@ import React from "react";
 
 import "./Plant.css";
 
-export default function Plants({ imgPlant, index, text, description }) {
+export default function Plants({
+  imgPlant,
+  index,
+  text,
+  description,
+  classname,
+}) {
   return (
-    <div className={"pos" + index + " Container__Plant Flex__Plant"}>
+    <div
+      className={
+        classname !== undefined
+          ? classname + " Container__Unique__Plant"
+          : "pos" + index + " Container__Plant Flex__Plant"
+      }
+    >
       <p className="Plant__Text">{text}</p>
       <p
         className={index === 1 ? "Description__Enable" : "Description__Disable"}

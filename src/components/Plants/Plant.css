@@ -2,8 +2,8 @@
   transform: perspective(800px) translateZ(-1000px) scale(2);
   width: 200px;
   height: 200px;
-  border-radius: 5px;
-  background-color: #f0f2f4;
+  border-radius: 15px;
+  background-color: rgb(232, 240, 239);
   position: absolute;
   margin: 20px;
   transition: 0.5s;
@@ -60,6 +60,7 @@
 }
 
 .pos0 {
+  margin-top: 10%;
   left: calc(-10% - 60px);
   visibility: hidden;
 }
@@ -82,4 +83,47 @@
 .pos6 {
   left: calc(115% - 60px);
   visibility: hidden;
+}
+.Unique__Plant {
+  transform: perspective(800px) translateZ(0px) translateY(60px) scale(1.2);
+}
+.Container__Unique__Plant {
+  transform: perspective(800px) translateZ(-1000px) scale(2);
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: rgb(232, 240, 239);
+  margin: 20px;
+  transition: 0.5s;
+}
+@media (max-width: 750px) {
+  .pos0 {
+    left: calc(-50% - 60px);
+    visibility: hidden;
+  }
+  .pos1 {
+    margin-top: 20%;
+    left: calc(40% - 70px);
+    transform: perspective(800px) translateZ(0px) translateY(-80px) scale(1.2);
+  }
+  .pos2 {
+    left: calc(115% - 60px);
+    visibility: hidden;
+  }
+  .pos3 {
+    left: calc(115% - 60px);
+    visibility: hidden;
+  }
+  .pos4 {
+    left: calc(115% - 60px);
+    visibility: hidden;
+  }
+  .pos5 {
+    left: calc(115% - 60px);
+    visibility: hidden;
+  }
+  .pos6 {
+    left: calc(115% - 60px);
+    visibility: hidden;
+  }
 }
