@@ -22,13 +22,16 @@ function App() {
         {size.width > 750 ? (
           <PlantsCarousel />
         ) : (
-          <Plant
-            imgPlant={arrayPlants[0].img}
-            index={1}
-            text={arrayPlants[0].text}
-            description={arrayPlants[0].description}
-            classname="Unique__Plant"
-          />
+          <div>
+            <Plant
+              imgPlant={arrayPlants[0].img}
+              index={1}
+              text={arrayPlants[0].text}
+              description={arrayPlants[0].description}
+              classname="Unique__Plant"
+            />
+            <p className="Text__Top">Top of the week</p>
+          </div>
         )}
         {size.width < 750 && <PlantCarousel />}
       </div>

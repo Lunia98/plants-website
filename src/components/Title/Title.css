@@ -41,9 +41,9 @@
     font-size: 26px;
     width: 100%;
   }
-  /*   .Describe {
-    display: none;
-  } */
+  .Describe {
+    width: 180%;
+  }
 }
 .go_green {
   transform: rotate(270deg);

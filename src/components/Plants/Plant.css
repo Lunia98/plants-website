@@ -99,7 +99,6 @@
 @media (max-width: 750px) {
   .pos0 {
     left: calc(-50% - 60px);
-    visibility: hidden;
   }
   .pos1 {
     margin-top: 20%;
@@ -108,22 +107,17 @@
   }
   .pos2 {
     left: calc(115% - 60px);
-    visibility: hidden;
   }
   .pos3 {
     left: calc(115% - 60px);
-    visibility: hidden;
   }
   .pos4 {
     left: calc(115% - 60px);
-    visibility: hidden;
   }
   .pos5 {
     left: calc(115% - 60px);
-    visibility: hidden;
   }
   .pos6 {
     left: calc(115% - 60px);
-    visibility: hidden;
   }
 }
