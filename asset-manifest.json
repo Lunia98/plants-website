@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/plants-website/static/css/main.2a6a6179.chunk.css",
-    "main.js": "/plants-website/static/js/main.238f1f5d.chunk.js",
-    "main.js.map": "/plants-website/static/js/main.238f1f5d.chunk.js.map",
-    "runtime-main.js": "/plants-website/static/js/runtime-main.5a8f0eb3.js",
-    "runtime-main.js.map": "/plants-website/static/js/runtime-main.5a8f0eb3.js.map",
-    "static/js/2.bbc4ebc4.chunk.js": "/plants-website/static/js/2.bbc4ebc4.chunk.js",
-    "static/js/2.bbc4ebc4.chunk.js.map": "/plants-website/static/js/2.bbc4ebc4.chunk.js.map",
-    "static/js/3.ebcd619f.chunk.js": "/plants-website/static/js/3.ebcd619f.chunk.js",
-    "static/js/3.ebcd619f.chunk.js.map": "/plants-website/static/js/3.ebcd619f.chunk.js.map",
+    "main.css": "/plants-website/static/css/main.12c6a64b.chunk.css",
+    "main.js": "/plants-website/static/js/main.9839ef18.chunk.js",
+    "main.js.map": "/plants-website/static/js/main.9839ef18.chunk.js.map",
+    "runtime-main.js": "/plants-website/static/js/runtime-main.334e75cb.js",
+    "runtime-main.js.map": "/plants-website/static/js/runtime-main.334e75cb.js.map",
+    "static/js/2.8c017234.chunk.js": "/plants-website/static/js/2.8c017234.chunk.js",
+    "static/js/2.8c017234.chunk.js.map": "/plants-website/static/js/2.8c017234.chunk.js.map",
+    "static/js/3.c2804208.chunk.js": "/plants-website/static/js/3.c2804208.chunk.js",
+    "static/js/3.c2804208.chunk.js.map": "/plants-website/static/js/3.c2804208.chunk.js.map",
     "index.html": "/plants-website/index.html",
-    "static/css/main.2a6a6179.chunk.css.map": "/plants-website/static/css/main.2a6a6179.chunk.css.map",
-    "static/js/2.bbc4ebc4.chunk.js.LICENSE.txt": "/plants-website/static/js/2.bbc4ebc4.chunk.js.LICENSE.txt",
+    "static/css/main.12c6a64b.chunk.css.map": "/plants-website/static/css/main.12c6a64b.chunk.css.map",
+    "static/js/2.8c017234.chunk.js.LICENSE.txt": "/plants-website/static/js/2.8c017234.chunk.js.LICENSE.txt",
     "static/media/plant1.3d8d3c52.png": "/plants-website/static/media/plant1.3d8d3c52.png",
     "static/media/plant2.6f2116ed.png": "/plants-website/static/media/plant2.6f2116ed.png",
     "static/media/plant3.161b1e87.png": "/plants-website/static/media/plant3.161b1e87.png",
@@ -21,9 +21,9 @@
     "static/media/plant7.4e653ba2.png": "/plants-website/static/media/plant7.4e653ba2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a8f0eb3.js",
-    "static/js/2.bbc4ebc4.chunk.js",
-    "static/css/main.2a6a6179.chunk.css",
-    "static/js/main.238f1f5d.chunk.js"
+    "static/js/runtime-main.334e75cb.js",
+    "static/js/2.8c017234.chunk.js",
+    "static/css/main.12c6a64b.chunk.css",
+    "static/js/main.9839ef18.chunk.js"
   ]
 }
