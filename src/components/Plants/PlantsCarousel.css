@@ -15,22 +15,24 @@
 }
 .Arrow__Right {
   position: relative;
-  right: -85%;
-  top: 65%;
+  right: -96%;
+  top: 22%;
   z-index: 5;
 }
 .Arrow__Left {
   position: relative;
-  left: -20%;
-  top: 65%;
+  left: -3%;
+  top: 22%;
 }
 @media (max-width: 750px) {
   .Arrow__Right {
+    right: -85%;
     bottom: -50%;
     top: auto;
   }
   .Arrow__Left {
     bottom: -50%;
+    left: -20%;
     top: auto;
   }
 }
