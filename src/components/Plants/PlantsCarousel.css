@@ -14,23 +14,23 @@
   transform: scale(1.2);
 }
 .Arrow__Right {
-  position: absolute;
-  right: 0;
+  position: relative;
+  right: -85%;
   top: 65%;
   z-index: 5;
 }
 .Arrow__Left {
-  position: absolute;
-  left: 0;
+  position: relative;
+  left: -20%;
   top: 65%;
 }
 @media (max-width: 750px) {
-  .Arrow__Left {
-    bottom: -22%;
+  .Arrow__Right {
+    bottom: -50%;
     top: auto;
   }
-  .Arrow__Right {
-    bottom: -22%;
+  .Arrow__Left {
+    bottom: -50%;
     top: auto;
   }
 }
