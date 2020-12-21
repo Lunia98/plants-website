@@ -1,7 +1,36 @@
-.Transition__Plants {
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  width: 100vw;
-  height: 270px;
+.Container__Transition__Plants {
+  width: 100%;
+  height: 100%;
+}
+.Button__Arrow {
+  border: none;
+  background-color: transparent;
+  color: #252e30;
+}
+.Button__Arrow:focus {
+  outline: none;
+}
+.Button__Arrow:hover {
+  transform: scale(1.2);
+}
+.Arrow__Right {
+  position: absolute;
+  right: 0;
+  top: 65%;
+  z-index: 5;
+}
+.Arrow__Left {
+  position: absolute;
+  left: 0;
+  top: 65%;
+}
+@media (max-width: 750px) {
+  .Arrow__Left {
+    bottom: -22%;
+    top: auto;
+  }
+  .Arrow__Right {
+    bottom: -22%;
+    top: auto;
+  }
 }

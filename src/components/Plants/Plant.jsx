@@ -8,6 +8,7 @@ export default function Plants({
   text,
   description,
   classname,
+  handleClick,
 }) {
   return (
     <div

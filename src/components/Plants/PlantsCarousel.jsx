@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Plant from "./Plant";
 import { arrayPlants } from "../../data";
-
+import { arrowLeft, arrowRight } from "../Utils/icons";
 import "./PlantsCarousel.css";
 
 export default function PlantCarousel() {
@@ -16,8 +16,21 @@ export default function PlantCarousel() {
     };
   }, [state]);
 
+  const handleClickRight = () => {
+    setState(state > 0 ? state - 1 : arrayPlants.length - 1);
+  };
+  const handleClickLeft = () => {
+    setState(state < 6 ? state + 1 : 0);
+  };
+
   return (
-    <div className="Transition__Plants">
+    <div className="Container__Transition__Plants">
+      <button
+        onClick={() => handleClickRight()}
+        className="Button__Arrow Arrow__Right"
+      >
+        {arrowRight()}
+      </button>
       {arrayPlants.map((plant, i) => {
         return (
           <Plant
@@ -33,6 +46,12 @@ export default function PlantCarousel() {
           />
         );
       })}
+      <button
+        onClick={() => handleClickLeft()}
+        className="Button__Arrow Arrow__Left"
+      >
+        {arrowLeft()}
+      </button>
     </div>
   );
 }

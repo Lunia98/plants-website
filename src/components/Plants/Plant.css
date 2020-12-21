@@ -102,8 +102,8 @@
   }
   .pos1 {
     margin-top: 20%;
-    left: calc(40% - 70px);
-    transform: perspective(800px) translateZ(0px) translateY(-80px) scale(1.2);
+    left: calc(36% - 70px);
+    transform: perspective(800px) translateZ(0px) translateY(-35px) scale(1.2);
   }
   .pos2 {
     left: calc(115% - 60px);

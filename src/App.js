@@ -15,9 +15,11 @@ function App() {
       <div className="App__Nav">
         {size.width < 750 ? <NavResponsive size={size} /> : <Nav />}
       </div>
+
       <div className="Flex__Title">
         <Title size={size} />
       </div>
+
       <div className="Container__Flex__Plant">
         {size.width > 750 ? (
           <PlantsCarousel />
